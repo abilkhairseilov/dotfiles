@@ -95,7 +95,7 @@ export LESS=-R
 export VISUAL=nvim
 export EDITOR=nvim
 export KDEWM=/usr/bin/bspwm
-export BROWSER=cromite
+export BROWSER=firefox
 export FZF_DEFAULT_OPTS="--ansi"
 export CARGO_BUILD_JOBS=2
 

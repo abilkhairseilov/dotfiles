@@ -13,7 +13,16 @@ return {
   {
     'sainnhe/gruvbox-material',
     config = function()
-      vim.cmd [[colorscheme gruvbox-material]]
+      -- vim.cmd [[colorscheme gruvbox-material]]
+    end,
+  },
+  {
+    'gbprod/nord.nvim',
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require 'nord'
+      vim.cmd [[colorscheme nord]]
     end,
   },
 }
