@@ -20,9 +20,6 @@ set nowrap
 set number
 set relativenumber
 
-# sometimes i mess up on saving, and apparently :update is a new hip way of
-# saving files
-command! -bar -nargs=* -complete=file -range=% -bang W update
 
 # lol
 inoremap <C-c> <esc>
