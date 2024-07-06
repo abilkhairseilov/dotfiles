@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# export desktop session
+export XDG_CURRENT_SESSION='i3'
+
+# kill programs before running
+exec killall polybar &
+exec killall picom &
+exec killall dex &
+exec killall xss-lock &
+exec killall nm-tray &
+
+exec ~/.config/i3/scripts/polybar &
+
+exec ~/.config/i3/scripts/wallpaper &
+
+exec xss-lock --transfer-sleep-lock -- i3lock --nofork &
+
+#exec dex --autostart --environment i3 &
+
+if [[! `pidof mpd` ]]; then
+	exec mpd &
+fi
+
+# /* vim: set filetype=bash : */

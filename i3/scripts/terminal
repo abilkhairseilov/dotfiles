@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+exec st -f "JetBrainsMono NerdFontMono:8"
+# /* vim: set filetype=bash : */
