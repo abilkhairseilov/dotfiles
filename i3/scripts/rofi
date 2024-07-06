@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+exec rofi -modi drun,run -show drun
+
+# /* vim: set filetype=bash : */

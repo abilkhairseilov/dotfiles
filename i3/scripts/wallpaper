@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+nitrogen --restore --set-zoom-fill
+
+# /* vim: set filetype:bash : */
