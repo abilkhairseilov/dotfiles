@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-# kill polybar if still running
-killall polybar
-
-# start polybar
-exec polybar main -c ~/.config/i3/polybar/config.ini &
-
-# /* vim: set filetype=bash */

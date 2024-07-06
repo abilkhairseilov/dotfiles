@@ -1,0 +1,24 @@
+filetype plugin on
+syntax on
+
+if !isdirectory("/home/2B/.vim/undodir")
+	call mkdir("/home/2B/.vim/undodir", "", 0755)
+endif
+
+set nocompatible
+set number
+set relativenumber
+set nowrap
+set foldmethod=indent
+set omnifunc=syntaxcomplete#Complete
+set background=dark
+set undodir="~/.vim/undodir/"
+set undofile
+set wildmenu
+set path+=**
+
+nnoremap <C-c> <esc>
+nnoremap j gj
+nnoremap k gk
+
+colo retrobox
