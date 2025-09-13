@@ -1,0 +1,10 @@
+#!/usr/bin/env
+
+configDir = "~/Configuration/"
+vimConfigDir = "~/Configuration/nvim/"
+
+projectsDir = "~/Development/"
+reposDir = "~/Development/repos/"
+
+
+# vim:set ft=sh
