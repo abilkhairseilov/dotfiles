@@ -1,0 +1,11 @@
+#!/usr/bin/env
+
+configDir = "~/Configuration/"
+vimConfigDir = "~/Configuration/nvim/"
+
+projectsDir = "~/Development/"
+reposDir = "~/Development/repos/"
+
+tmux new-session
+
+# vim:set ft=sh

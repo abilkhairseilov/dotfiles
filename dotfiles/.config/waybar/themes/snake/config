@@ -1,0 +1,40 @@
+{
+    // General Settings
+    // Position TOP
+    "layer": "top",
+    "margin-bottom": 0,
+    // Position BOTTOM
+    // "position": "bottom",
+    // "margin-top": 0,
+    // "margin-bottom": 14,
+    "margin-left": 0,
+    "margin-right": 0,
+    "spacing": 0,
+    // Load Modules
+    "include": [
+        "~/.config/waybar/themes/snake/modules.json"
+    ],
+    // Modules Left
+    "modules-left": [
+        "hyprland/window",
+    ],
+    // Modules Center
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    // Modules Right    
+    "modules-right": [
+        "pulseaudio",
+        "bluetooth",
+        "battery",
+        "group/hardware",
+        "custom/cliphist",
+        "custom/hypridle",
+        "custom/hyprshade",
+        "tray",
+        "custom/exit",
+        "clock"
+    ]
+}
+
+// vim:ft=json
