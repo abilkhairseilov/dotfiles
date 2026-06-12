@@ -1,7 +1,7 @@
 /* -----------------------------------------------------
  * Import Pywal colors
  * ----------------------------------------------------- */
-@import '../../../../../.config/waybar/colors.css';
+@import '/home/snake/conf/dotfiles/.config/waybar/colors.css';
 @define-color backgroundlight @surface;
 @define-color backgrounddark @surface;
 @define-color workspacesbackground1 @surface;
@@ -12,4 +12,4 @@
 @define-color textcolor3 @on_surface;
 @define-color iconcolor @surface;
 
-@import '../style.css';
+/* @import '../style.css'; */

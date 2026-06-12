@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-screenshot_folder="$HOME/Pictures"
+screenshot_folder="$HOME/Pictures/Screenshots/"

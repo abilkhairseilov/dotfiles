@@ -1,1 +1,1 @@
-pinta
+nomacs

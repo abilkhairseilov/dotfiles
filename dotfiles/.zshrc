@@ -9,10 +9,10 @@ fi
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
 # Download Zinit, if it's not there yet
-if [ ! -d "$ZINIT_HOME" ]; then
-   mkdir -p "$(dirname $ZINIT_HOME)"
-   git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
-fi
+# if [ ! -d "$ZINIT_HOME" ]; then
+#    mkdir -p "$(dirname $ZINIT_HOME)"
+#    git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+# fi
 
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
@@ -70,6 +70,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias ls='ls --color -lah'
 alias vi='nvim'
+alias code='emacsclient -n'
 alias cls='clear'
 
 # Exports
