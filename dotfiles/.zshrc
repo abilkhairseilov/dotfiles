@@ -72,6 +72,7 @@ alias ls='ls --color -lah'
 alias vi='nvim'
 alias code='emacsclient -n'
 alias cls='clear'
+alias hx='helix'
 
 # Exports
 export PATH="$PATH:$HOME/.local/bin:$HOME/conf/scripts/"
